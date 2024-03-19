@@ -1,111 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
-</head>
-
-<body>
-<div>
-    <section>  
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-part-container">
         <div>
-            <h2>Front-End Developer</h2>
-            <h1>Danilenko Volodymyr</h1>  
-            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                et 
-                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                lacus vel facilisis. </div>
-        </div> 
-
-        <div>
-            <h3>Projects</h3> 
-            <ol>
-                <li>
-                    <a href=" https://www.google.com/">https://www.google.com/</a>
-                    <div>[ HTML5, CSS3 ]</div>
-                </li>
-                <li>                 
-                    <a href="https://www.google.com/">https://www.google.com/</a>
-                    <div>[ JavaScript ]</div>
-                </li>
-                <li>
-                    <a href="https://www.google.com/">https://www.google.com/</a>
-                    <div>[ React.js, Node.js ]</div>
-                </li>
-            </ol>
-        </div>  
-        <div>
-            <h3>Work Experience</h3>
-            <div>
-                <h4>Front-End Developer Freelance </h4>
-                <div>September 2019 - up to now | Country</div>
-                <ul>
-                    <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Manager Banderogusak & Co.</h4>
-                <div>March 2015 - October 2018 | Country</div>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
-                        magna aliqua. </li>
-                    <li>Quis ipsum suspendisse ultrices gravida.</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                </ul>
-            </div>
-
-            <div>
-                <h4>Manager BestUA Corp.</h4>
-                <div>March 2013 - October 2015 | Country</div>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Quis ipsum suspendisse ultrices gravida..</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                </ul>
-            </div>
+          <img
+            class="photo"
+            src="Frame 1.png"
+            alt=""
+          />
         </div>
-        <div>
-            <h3>Education</h3>
-            <h4>National University of Management</h4>
-            <div>Management
-                September 2009 - June 2014 | Country</div>
-        </div>
-    </section>
+        <div class="content">
+          <div class="position">Contacts:</div>
 
-    <aside>
-        <img src="./Frame 1.png" alt="Me" width="200px">
-        <div>
-            <h3>Contacts</h3>
-            <p> C: <a href="tel:+38 888 888 88 88">+38 888 888 88 88 </a></p>
-            <p> E: <a href="mailto:vat.goitinskiy@gmail.com"> t.goitinskiy@gmail.com </a> </p>
-        </div>
-        <div>
-            <h3>Tech Skills</h3>
+          <div class="contact-info">
+            <div style="display: flex; flex-direction: column; gap: 5px">
+              <p
+                style="
+                  font-family: Montserrat;
+                  font-size: 14px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                "
+              >
+                C:
+              </p>
+              <p
+                style="
+                  font-family: Montserrat;
+                  font-size: 14px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                "
+              >
+                E:
+              </p>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 5px">
+              <p
+                style="
+                  font-family: Montserrat;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                "
+              >
+                +38 888 888 88 88
+              </p>
+              <a
+                style="
+                  font-family: Montserrat;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                "
+                href="t.goitinskiy@gmail.com"
+                >artempr@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="tech-skills">
+            <div class="position">Tech Skills:</div>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>GIT</li>
-                <li>WebPack</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
+              <li class="text">HTML5</li>
+              <li class="text">CSS3</li>
+              <li class="text">GIT</li>
+              <li class="text">WebPack</li>
+              <li class="text">JavaScript</li>
+              <li class="text">React.js</li>
+              <li class="text">Node.js</li>
             </ul>
-        </div>
-        <div>
-            <h3>Soft Skills</h3>
+          </div>
+          <div class="soft-skills">
+            <div class="position">Soft Skills:</div>
             <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>Teamwork</li>
+              <li class="text">Scrum</li>
+              <li class="text">Agile</li>
+              <li class="text">CTD</li>
+              <li class="text">IT</li>
+              <li class="text">Teamwork</li>
+              <li class="text">NV 3</li>
             </ul>
+          </div>
         </div>
-    </aside>
-</div>
-</body>
+      </div>
+      <div class="second-part-container">
+        <div class="header">
+          <p class="position">Front-End Developer</p>
+          <h1 class="name">Danilenko Volodymyr</h1>
+          <p class="lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
+          </p>
+        </div>
+        <div class="projects">
+          <p class="numbers">1. 2. 3.</p>
+          <div class="links">
+            <a href="https://hellen.p.goit.global"></a
+            >https://hellen.p.goit.global/
+
+            <a href="https://cryptohub.p.goit.global/"></a
+            >https://cryptohub.p.goit.global/
+
+            <a href="https://kidslike.p.goit.global/"></a
+            >https://kidslike.p.goit.global/
+          </div>
+
+          <p class="technologies">
+            [ HTML5, CSS3 ] <br />
+            [ JavaScript ] <br />
+            [ React.js, Node.js ]
+          </p>
+        </div>
+        <div class="work-experience">
+          <p class="work-experience-text">Work Experience:</p>
+          <div class="project">
+            <p class="freelance">Front-End Developer <span>Freelance</span></p>
+            <p class="text-september">September 2019 - up to now | Country</p>
+            <div class="september">
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>Risus commodo viverra maecenas.</li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project">
+            <div class="manager">Manager <span>Banderogusak & Co.</span></div>
+            <div class="text-manager">March 2015 - October 2018 | Country</div>
+            <ul class="manager-list">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod labore et dolore magna aliqua.
+              </li>
+              <li>Quis ipsum suspendisse ultrices gravida.</li>
+              <li>Risus commodo viverra maecenas.</li>
+            </ul>
+          </div>
+          <div class="project">
+            <div class="manager">Manager <span>BestUA Corp.</span></div>
+            <div class="text-manager">June 2014 - February 2015 | Country</div>
+            <ul class="manager-list">
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Quis ipsum suspendisse ultrices gravida.</li>
+              <li>Risus commodo viverra maecenas.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="education">
+          <h2 class="ed-title">Education</h2>
+          <h3>National University of Management</h3>
+          <h4>Management</h4>
+          <p>September 2009 - June 2014 | Country</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
